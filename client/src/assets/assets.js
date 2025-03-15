@@ -20,6 +20,7 @@ import credit_star from './credit_star.svg'
 import profile_icon from './profile_icon.png'
 import DreamGlyph_Logo from './DreamGlyph_Logo.svg'
 import DreamGlyph_Icon from './DreamGlyph_Icon.svg'
+import description from './description.svg'
 
 
 export const assets = {
@@ -39,7 +40,8 @@ export const assets = {
     credit_star,
     profile_icon,
     DreamGlyph_Logo,
-    DreamGlyph_Icon
+    DreamGlyph_Icon,
+    description
 }
 
 export const stepsData = [
@@ -72,17 +74,17 @@ export const testimonialsData = [
         image:profile_img_2,
         name:'Richard Nelson',
         role:'Content Creator',
-        stars:5,
+        stars:4,
         text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
     },
     {
         image:profile_img_1,
-        name:'Donald Jackman',
-        role:' Graphic Designer',
+        name:'John Reed',
+        role:' Student',
         stars:5,
         text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
     },
-]
+  ]; 
 
 export const plans = [
     {
@@ -103,4 +105,4 @@ export const plans = [
       credits: 5000,
       desc: 'Best for enterprise use.'
     },
-  ]
+  ];
